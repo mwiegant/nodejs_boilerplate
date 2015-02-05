@@ -1,0 +1,91 @@
+/*
+    lightest:   2DC8F7
+    lighter:    64D3F5
+    dark:       089FCC
+*/
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+/* header section classes */
+
+.head {
+    width: 80%;
+    height: 200px;
+    float: left;
+    color: red;
+    background-color: #089FCC;
+}
+
+.head > .con {
+    width: auto;
+    height: 98%;
+    margin: 2px 5px 2px 5px;
+    background-color: #31aca1;
+}
+
+/* sidebar section classes */
+
+.sidebar {
+    width: 20%;
+    height: 900px;
+    float: left;
+    margin: 0 0 0 0;
+    background-color: #2DC8F7;
+}
+
+.sidebar > .con {
+    width: auto;
+    height: 96%;
+    margin: 2px 5px 2px 5px;
+    background-color: #3cd0f7;
+}
+
+.sidebar > .con > .dashboard {
+    width: auto;
+    height: 190px;
+    margin: 5px 2px 5px 2px;
+    background-color: #1aa2f7;
+}
+
+.sidebar > .con > .dashboard > .menu {
+    /*text-align: center;*/
+}
+
+.sidebar > .con > .menu > h3 {
+    text-align: center;
+}
+
+.sidebar > .con > .menu > a {
+    text-align: center;
+}
+
+
+/* main content section classes */
+
+.content {
+    width: 80%;
+    height: 700px;
+    float: left;
+    margin: 0 0 0 0;
+    background-color: #64D3F5 ;
+}
+
+.footer {
+    width:auto;
+    height: 100px;
+    border: 1px solid black;
+    clear: both;
+    color: red;
+    background-color: #089FCC;
+}
+
+
+
