@@ -8,7 +8,7 @@ This project follows most normally accepted standards on file names and file loc
 
 # Specifications
 
-- This nodejs server was built as an Express application. Read about Express, [here](http://expressjs.com/api.html#app.express).
+- This nodejs server was built as an Express application. Express handles the server creation and routing for this project. Read up on Express [here](http://expressjs.com/api.html#app.express).
 - No templating engine is being used; to learn how to use a templating language (such as Jade or Ejs), [click here](http://expressjs.com/guide/using-template-engines.html).
 - Html files should be put in the /views folder.
 - All other resource files (js, less, css, etc) should be put in the /public folder, which will be sent to the browser along with the requested webpage on each refresh of the page.
