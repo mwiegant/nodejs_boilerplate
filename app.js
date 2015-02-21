@@ -1,6 +1,7 @@
 // File that defines the app and defines core libraries
 
 var url = require('url');
+var debug = require('debug');
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
