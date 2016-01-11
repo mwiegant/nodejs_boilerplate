@@ -27,9 +27,9 @@ This project follows numerous, normally accepted standards on file names and fil
 
 To run this project from the terminal, navigate to the folder containing this code and run one, or both, of the command below!
 
-**FIRST RUN:** If this is your first time running this project, be sure to run **npm install** first! The word *sudo* may or may not be required for you, but in most cases adding *sudo* before a command will solve your problem on the command line.
+**FIRST RUN:** If this is your first time running this project, be sure to run **npm install** first! If you get an error within the npm output that says something to the effect of "Please run again as administrator" then you've got a problem with your npm / node setup. You need to fix this! Try googling "npm install requires sudo". You're going to find a BUNCH of suggestions, but anything you find on stack overflow should be 'good enough' for a novice to use.
 
-    sudo npm install
+    npm install
     
 If you have run **npm install** and have all modules installed, execute the "run" script that is packaged with this project to start the server:
 
